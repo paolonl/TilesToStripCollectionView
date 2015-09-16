@@ -13,6 +13,7 @@
 		52B0197D1BA9F698008B9F1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B0197C1BA9F698008B9F1C /* Images.xcassets */; };
 		52B019801BA9F698008B9F1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52B0197E1BA9F698008B9F1C /* LaunchScreen.xib */; };
 		52B0198C1BA9F698008B9F1C /* CustomFlowLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B0198B1BA9F698008B9F1C /* CustomFlowLayoutTests.swift */; };
+		52B019981BA9F7B0008B9F1C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B019971BA9F7B0008B9F1C /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		52B019851BA9F698008B9F1C /* CustomFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B0198A1BA9F698008B9F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52B0198B1BA9F698008B9F1C /* CustomFlowLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayoutTests.swift; sourceTree = "<group>"; };
+		52B019971BA9F7B0008B9F1C /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				52B019751BA9F698008B9F1C /* AppDelegate.swift */,
 				52B019771BA9F698008B9F1C /* ViewController.swift */,
+				52B019971BA9F7B0008B9F1C /* CollectionViewCell.swift */,
 				52B019791BA9F698008B9F1C /* Main.storyboard */,
 				52B0197C1BA9F698008B9F1C /* Images.xcassets */,
 				52B0197E1BA9F698008B9F1C /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B019781BA9F698008B9F1C /* ViewController.swift in Sources */,
+				52B019981BA9F7B0008B9F1C /* CollectionViewCell.swift in Sources */,
 				52B019761BA9F698008B9F1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
